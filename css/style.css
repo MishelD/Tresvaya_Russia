@@ -99,6 +99,12 @@ header {
 .text_content h1 {
   padding: 10px 0 10px 20px
 }
+.text_content p {
+  padding-left: 10px;
+  max-width: 1040px;
+  font-size: 20px;
+}
+
 
 footer {
   padding: 5px 30px 5px 0;
