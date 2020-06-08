@@ -1,0 +1,115 @@
+/*     ШРИФТЫ     */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Russo+One&display=swap');
+/* Oswald - основной текст Extra-light 200
+            ссылки Regular 400
+            заголовки Bold 700
+   Russo One - логотип Regular 400
+
+   font-family: 'Oswald', sans-serif;
+
+   font-family: 'Russo One', sans-serif;
+*/
+* {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  cursor: default;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E6F1F4;
+}
+
+a {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+a:hover {
+  color: #111;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  display: inline-flex;
+  justify-content: space-between;
+  background: #F9FBFF;
+  box-shadow: 0 1px 10px #536080;
+  z-index: 10;
+}
+
+.logo {
+  display: inline-flex;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+  background-color: #7CC0D9;
+  margin: auto 20px;
+}
+.logo h1, .logo span {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: auto auto auto 0;
+}
+.logo h1 {
+  text-shadow: 0 0 2px #536080
+}
+#white {
+  color: #FFF;
+}
+#blue {
+  color: #2570BA;
+}
+#red {
+  color: #FF1D25;
+}
+
+.navbutton {
+  display: flex;
+  height: 30px;
+  margin: auto;
+  font-size: 15px;
+}
+.navbutton a {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 5px;
+  margin: auto 10px;
+}
+.navbutton a:hover {
+  background-color: #111;
+  color: #FEFEFE;
+}
+
+.text_content {
+  margin: 70px auto 10px auto;
+  max-width: 1140px;
+  padding: 10px;
+  background: #FEFEFE;
+  border-radius: 5px;
+}
+.text_content h1 {
+  padding: 10px 0 10px 20px
+}
+.text_content p {
+  padding-left: 10px;
+  max-width: 1040px;
+  font-size: 20px;
+}
+
+
+footer {
+  padding: 5px 30px 5px 0;
+  text-align: right;
+  font-size: 15px;
+  color: #536080;
+  opacity: 0.7;
+}
