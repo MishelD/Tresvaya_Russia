@@ -1,5 +1,5 @@
 * {
-	color: #FEFEFE;
+	/*color: #FEFEFE;*/
 }
 
 body {
@@ -13,4 +13,13 @@ header {
 
 .logo h1 {
 	text-shadow: none;
+	color: #FEFEFE;
+}
+
+.text_content {
+	color: #32356B
+}
+
+footer {
+	color: #FEFEFE;
 }
