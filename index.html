@@ -7,18 +7,28 @@
 	<title>Трезвая Россия</title>
 	<link rel="icon" href="ico/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Russo+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/dark.css" class="themeStyle">
+	<link rel="stylesheet" href="css/tgSwitch.css">
 </head>
 
 <body>
 	<header>
 		<div class="logo">
-			<img src="" alt="">
+			<img src="svg/logo.svg" alt="">
 			<h1>трезвая <span id="white">Ро</span><span id="blue">сс</span><span id="red">ия</span></h1>
 		</div>
 		<div class="navbutton">
 			<a href="#about">о проекте</a>
 		</div>
+		<div class="themeSwitch">
+				<div class="theme">тёмная тема</div>
+				<div class="tgSwitch">
+					<div class="slider"></div>
+					<input type="checkbox"  checked="checked">
+				</div>
+			</div>
 	</header>
 
 	<section class="text_content">
@@ -29,6 +39,9 @@
 	<footer>
 		<p>Код и дизайн выполнил Долгушев Михаил 17ис-9Б-пл</p>
 	</footer>
+
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+	<script src="js/tgSwitch.js"></script>
 </body>
 
 </html>
