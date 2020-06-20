@@ -1,9 +1,19 @@
-* {
-	/*color: #FEFEFE;*/
-}
-
 body {
 	background: #60627D;
+}
+
+.load {
+	background: rgba(50, 53, 107, 1);
+	color: #FEFEFE;
+}
+
+@keyframes load-bg {
+  90% {
+  	background: rgba(50, 53, 107, 1);
+  }
+  100% {
+	background: rgba(50, 53, 107, 0);
+  }
 }
 
 header {
@@ -16,8 +26,21 @@ header {
 	color: #FEFEFE;
 }
 
+.navbutton a {
+  color: #FEFEFE;
+}
+.navbutton a:hover {
+  background-color: #FEFEFE;
+  color: #32356B;
+}
+
+.theme {
+	color: #FEFEFE;
+}
+
 .text_content {
-	color: #32356B
+	color: #FEFEFE;
+	background: #32356B;
 }
 
 footer {
