@@ -103,7 +103,7 @@ header {
 .text_content p {
   padding-left: 10px;
   max-width: 1040px;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .fleft {
@@ -132,11 +132,36 @@ header {
   color: #FEFEFE;
   font-size: 2em;
   text-align: center;
-  text-shadow: 0 0 2px #131313;
+  text-shadow:   
+    -0   -2px 0 #000,
+     0   -2px 0 #000,
+    -0    2px 0 #000,
+     0    2px 0 #000,
+    -2px -0   0 #000,
+     2px -0   0 #000,
+    -2px  0   0 #000,
+     2px  0   0 #000,
+    -1px -2px 0 #000,
+     1px -2px 0 #000,
+    -1px  2px 0 #000,
+     1px  2px 0 #000,
+    -2px -1px 0 #000,
+     2px -1px 0 #000,
+    -2px  1px 0 #000,
+     2px  1px 0 #000,
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000;
   width: 10em;
   padding: 1.5em 1.5em;
   margin: .5em auto;
   border-radius: 5px;
+  transition: 0.3s;
 }
 .orange {
   background: #fd621f;
@@ -162,6 +187,11 @@ header {
 .text_content .item img {
   height: 5em;
   transition: 0.3s filter;
+}
+.bh:hover {
+  background: #FEFEFE;
+  color: #000;
+  text-shadow: none;
 }
 
 footer {
