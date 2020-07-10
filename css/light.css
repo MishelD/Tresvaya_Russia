@@ -2,15 +2,6 @@
 	background: rgba(254, 254, 254, 1);
 }
 
-@keyframes load-bg {
-  90% {
-  	background: rgba(254, 254, 254, 1);
-  }
-  100% {
-	background: rgba(254, 254, 254, 0);
-  }
-}
-
 #white {
 	color: #000
 }

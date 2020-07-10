@@ -38,7 +38,7 @@ header {
   display: inline-flex;
   justify-content: space-between;
   background: #F9FBFF;
-  box-shadow: 0 1px 10px #536080;
+  box-shadow: 0 1px 10px #131313e8;
   z-index: 10;
   transition: 0.3s;
 }
@@ -101,7 +101,7 @@ header {
   padding: .25em 0 .25em .7em;
 }
 .text_content h2 {
-  padding: .25em 0 .25em 1.7em;
+  padding: .1em 0 .1em 1.7em;
 }
 .text_content p {
   padding-left: 10px;
