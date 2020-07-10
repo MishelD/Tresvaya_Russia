@@ -100,6 +100,9 @@ header {
 .text_content h1 {
   padding: .25em 0 .25em .7em;
 }
+.text_content h2 {
+  padding: .25em 0 .25em 1.7em;
+}
 .text_content p {
   padding-left: 10px;
   max-width: 1040px;
